@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(180deg, #11a1fb, #45d8ed);
-  font-family: Arial, sans-serif;
+  font-family: 'Seymour One', Arial, sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -13,6 +13,7 @@ body {
 h1 {
   text-align: center;
   color: #fff;
+  text-shadow: 2px 2px 2px #000;
   border-bottom: 1px solid #fff;
   width: 70%;
 }
@@ -46,7 +47,7 @@ h1 {
 }
 
 .playerContainer {
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   text-shadow: 2px 2px 2px #f93e57;
 }
@@ -68,7 +69,7 @@ h1 {
 }
 
 .computerContainer {
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   text-shadow: 2px 2px 2px #f93e57;
 }
@@ -83,7 +84,7 @@ h1 {
 
 .results {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   text-shadow: 2px 2px 2px #f93e57;
   width: 300px;
   height: 100px; 
