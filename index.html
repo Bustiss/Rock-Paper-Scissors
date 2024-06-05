@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="gameContainer">
+    <h1>Rock, Paper, Scissors</h1>
+
+    <!--Container for Player and Computer Cards-->
+    <div class="cards">
+      <!--Player-->
+      <div class="playerContainer card">
+        <h2>Player</h2>
+        <div class="icons">
+          <a id="rock" class="choice"><i class="fas fa-hand-rock"></i></a>
+          <a id="paper" class="choice"><i class="fas fa-hand-paper"></i></a>
+          <a id="scissors" class="choice"><i class="fas fa-hand-scissors"></i></a>
+        </div>
+      </div>
+      <!--Computer-->
+      <div class="computerContainer card">
+        <h2>Computer</h2>
+        <div>
+          <p id="computerChoice"  class="computerChoice">!!!</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p id='results' class="results card">Click Something!!</p>
+    </div>
+    
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
