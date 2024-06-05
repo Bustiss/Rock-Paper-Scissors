@@ -85,6 +85,7 @@ h1 {
 .results {
   color: #fff;
   font-size: 30px;
+  text-align: center;
   text-shadow: 2px 2px 2px #f93e57;
   width: 300px;
   height: 100px; 
